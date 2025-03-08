@@ -1,5 +1,6 @@
 # 할 일 관리 서비스
 업무 효율을 높이기 위해 프로젝트와 세부적인 업무 관리를 지원하는 서비스
+<br />
 
 
 ## 프로젝트 개요
@@ -14,6 +15,7 @@
 주요 기능으로는 실시간 알림, 쪽지, 드래그 앤 드롭(DND)을 기반으로 한 칸반뷰와 목록뷰가 있으며, 업무 변경내역 파악하기 위한 히스토리 기능과 업무에 대한 피드백이 가능한 댓글 기능 등이 추가로 포함되어 있습니다. 
 워크스페이스 메인페이지에는 할 일을 보다 효율적으로 관리할 수 있도록 다양한 서비스를 제공하며, 그에 대한 종류로는 공지사항, 구성원 목록, 타임라인뷰, 할 일 D-3이 있습니다.
 이를 통해 사용자는 할일의 현황과 일정을 직관적으로 파악할 수 있습니다.
+<br />
 
 
 ## 기대효과
@@ -22,7 +24,7 @@
 3. 실시간 알림과 쪽지, 댓글 기능을 통한 그룹 간의 소통 향상
 4. 분업화된 권한으로, 체계적인 업무 환경 조성
 5. 프로젝트로 분리되어 그룹 내 다양한 업무 환경 조성 
-
+<br />
 
 
 ## 사용기술
@@ -31,17 +33,17 @@
 - 프론트 : Typescript, React.js, Zustand, MUI
 - DB : Postgresql, Redis
 - 인프라 : AWS(EC2, S3, CLOUDFRONT, ROUTE53, ELB, RDS), Docker
-
+<br />
 
 
 ## 시스템 아키텍처
 ![daon_arch](https://github.com/user-attachments/assets/a05ab038-0d9c-4401-98cb-0055ab654408)
-
+<br />
 
 
 ## ERD
 - TODO ERD 이미지 업로드
-
+<br />
 
 
 ## 역할
@@ -52,12 +54,14 @@
 - 할 일 관리 UI 개발
 - 할 일 칸반보드 드래그 앤 드롭 기능 개발
 - 공지사항 기능 및 UI 개발
+<br />
 
 ### 김재윤
 - 워크스페이스/프로젝트/보드/초대장/쪽지 기능 개발
 - SSE 실시간 처리 시스템 개발
 - 가입 인증 메일 송신 및 처리 시스템 개발
 - 역할별 권한 분리 및 기능 세분화
+<br />
 
 ### 유하영
 - 프론트엔드, 백엔드 개발환경 구축 및 인프라 환경 구축
@@ -65,9 +69,47 @@
 - 시큐리티 인증 처리, JWT 인증 처리, 로그인 토큰 발급
 - 히스토리 기능 및 UI 개발
 - SSE 기능 이용 실시간 알림 처리 개발
+<br />
 
 ### 조수연
 - 랜딩 페이지 개발
 - 회원가입 기능 및 UI 개발
 - 로그인 UI 개발
 - 할 일 생성 및 관리, 댓글 기능 개발
+<br />
+
+
+## 주요 화면
+### 회원가입 페이지
+![01](https://github.com/user-attachments/assets/f4ae8870-1505-452e-8e43-c96bf8ef329c)
+
+### 워크스페이스 메인 페이지
+![02](https://github.com/user-attachments/assets/2066acf3-f4c5-47d3-a0ff-b68de03b1208)
+
+### 할 일 목록 페이지
+![03](https://github.com/user-attachments/assets/3a47218f-eff1-482b-8675-dab64d8a501e)
+
+### 할 일 상세 모달
+![04](https://github.com/user-attachments/assets/bba2b4bd-8d6e-4321-9e49-05f1df3160ae)
+
+### 할 일 생성 모달
+![05](https://github.com/user-attachments/assets/6f2bf133-4d96-4d54-8fd8-5114c624abd5)
+
+### 프로젝트 생성 모달
+![06](https://github.com/user-attachments/assets/92e0e073-eba4-4585-8903-44d5c1e82132)
+
+### 프로젝트 설정
+![07](https://github.com/user-attachments/assets/a8e7fbcb-36a6-4351-8b20-e92b1e25f40b)
+
+### 워크스페이스 생성 모달
+![08](https://github.com/user-attachments/assets/4583164d-1f24-4b65-bdb6-8e642a03225f)
+
+### 워크스페이스 설정 모달
+![09](https://github.com/user-attachments/assets/d747911d-a80d-47c4-91cf-7a68a1e53614)
+
+### 알림 모달
+![10](https://github.com/user-attachments/assets/1937f454-479e-43ea-96a7-08d4627116c5)
+
+### 검색 모달
+![11](https://github.com/user-attachments/assets/999d9ed6-987a-4cac-b4a0-6fc32491a3e4)
+
