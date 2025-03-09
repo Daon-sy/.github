@@ -43,7 +43,7 @@
 
 
 ## ERD
-- TODO ERD 이미지 업로드
+![ERD](https://github.com/user-attachments/assets/94041e61-fb9b-4991-b495-5ed5cfdc1146)
 <br />
 
 
